@@ -68,8 +68,8 @@ const projects = ref([
         description:'Improved the user interface and added new functionality to the KenyaEMR system during hackathons and field deployments across Kenya in Bungoma, Kakamega, Turkana, West Pokot, Uasin Gishu, Trans Nzoia Counties',
         image:'/Kenyaemr.png',
         tags:['React', 'Java', 'Health IT', 'EMR', 'UX/UI','OpenMRS'],
-        liveLink:'/https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189',
-        codeLink:'/https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189'
+        liveLink:'https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189',
+        codeLink:'https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189'
     },
     {
         title:'Data Reporting Platform with Offline Support',
