@@ -22,16 +22,16 @@
                         ✅ Message sent successfully!
                     </p>
                     <div class="mt-2 flex justify-center space-x-3 md:space-x-8">
-                        <a href="" class="text-gray-600 hover:text-blue-500">
+                        <a href="https://x.com/Charity16453250?t=88PBvKfpSmlF6okbsVOW2Q&s=09" target="_blank" class="text-gray-600 hover:text-blue-500">
                             <Icon icon="fa-brands:twitter" style="font-size:2rem" />
                         </a>
-                        <a href="" class="text-gray-600 hover:text-blue-700">
+                        <a href="https://www.linkedin.com/in/charitymuleinakhchaz/" target="_blank" class="text-gray-600 hover:text-blue-700">
                             <Icon icon="fa-brands:linkedin" style="font-size:2rem" />
                         </a>
-                        <a href="" class="text-gray-600 hover:text-gray-800 ">
+                        <a href="https://github.com/charity553" target="_blank" class="text-gray-600 hover:text-gray-800 ">
                             <Icon icon="fa-brands:github" style="font-size:2rem" />
                         </a>
-                        <a href="" class="text-gray-600 hover:text-pink-500 ">
+                        <a href="https://www.instagram.com/charity36469/profilecard/?igsh=MTIzc2JoaTZ4Y2trcw==" target="_blank" class="text-gray-600 hover:text-pink-500 ">
                             <Icon icon="fa-brands:instagram" style="font-size:2rem" />
                         </a>
                     </div>
