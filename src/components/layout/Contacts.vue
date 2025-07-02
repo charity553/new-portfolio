@@ -8,12 +8,19 @@
                     :id="item.id" 
                     :label="item.label" 
                     :type="item.type" 
-                    :placeholder="placeholder"
-                    :rows="rows"
+                    :placeholder="item.placeholder"
+                    :rows="item.rows"
+                    v-model="form[item.id]"
                      />
                 </div>
                 <div class="flex justify-between">
-                    <Button  label="Send"/>
+                    <Button  label="Send" @click.prevent="sendEmail" />
+                    <p
+                        v-if="successMessage"
+                        class="text-green-500 text-sm font-semibold mt-2 ml-4"
+                        >
+                        ✅ Message sent successfully!
+                    </p>
                     <div class="mt-2 flex justify-center space-x-3 md:space-x-8">
                         <a href="" class="text-gray-600 hover:text-blue-500">
                             <Icon icon="fa-brands:twitter" style="font-size:2rem" />
@@ -39,6 +46,12 @@ import SectionHeader from '@/components/UI/SectionHeader.vue';
 import Input from '@/components/UI/Input.vue';
 import Button from '@/components/UI/Button.vue';
 import {ref} from 'vue';
+import emailjs from '@emailjs/browser';
+
+// My EmailJS details
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const inputs = ref([
     {
@@ -50,6 +63,32 @@ const inputs = ref([
     {
         id:'message',label:'Message',type:'textarea',placeholder:'Leave a comment',rows:6,
     }
-])
+]);
+
+const form = ref({
+  email: '',
+  subject: '',
+  message: ''
+});
+
+const statusMessage = ref('');
+const successMessage = ref(false);
+
+const sendEmail = () => {
+  emailjs
+    .send(SERVICE_ID, TEMPLATE_ID, form.value, PUBLIC_KEY)
+    .then(() => {
+        form.value = { email: '', subject: '', message: '' };
+        successMessage.value = true;
+
+        setTimeout(() => {
+        successMessage.value = false;
+    }, 3000);
+    })
+    .catch((err) => {
+      statusMessage.value = '❌ Failed to send message. Please try again later.';
+    });
+};
+
 
 </script>
