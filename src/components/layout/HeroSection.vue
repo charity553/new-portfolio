@@ -22,7 +22,9 @@
                     I believe in securing systems for the next generation — even if the work goes unseen.
                 </p>
                 <div class="mt-6 flex justify-center lg:justify-start">
-                    <Button label="Hire Me"/>
+                    <a href="mailto:yourname@example.com?subject=Hiring Inquiry" target="_blank">
+                        <Button label="Hire Me" />
+                    </a>
                     <a href="/Charity_Mulei_Resume.pdf" class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary 
                     rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent
                     flex justify-center items-center text-primary border-primary ">
