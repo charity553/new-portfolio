@@ -15,11 +15,11 @@
                     👋 Hi, I'm <span class="text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary"> Charity</span>
                 </h1>
                 <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
-                    Hi, I'm Charity Mulei — a Junior Cyber Security Engineer / Software Developer based near Nairobi.
+                    Hi, I'm Charity Mulei a Junior Cyber Security Engineer / Software Developer based in Nairobi.
                     I'm deeply passionate about Cyber Security and ensuring our digital world is safe.
                     I solve Capture The Flags, follow cybersecurity trends, and listen to TEDTalks and infosec podcasts.
                     I want to grow into a world-class penetration tester.
-                    I believe in securing systems for the next generation — even if the work goes unseen.
+                    I believe in securing systems for the next generation even if the work goes unseen.
                 </p>
                 <div class="mt-6 flex justify-center lg:justify-start">
                     <a href="mailto:yourname@example.com?subject=Hiring Inquiry" target="_blank">
