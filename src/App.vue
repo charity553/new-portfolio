@@ -9,6 +9,7 @@
         <Projects />
         <Contacts />
         <Footer />
+        <BackToTop />
     </div>
 </template>
 
@@ -23,4 +24,5 @@ const WhyMe = defineAsyncComponent(() => import('@/components/layout/Whyme.vue')
 const Projects = defineAsyncComponent(() => import('@/components/layout/Projects.vue'));
 const Contacts = defineAsyncComponent(() => import('@/components/layout/Contacts.vue'));
 const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'));
+const BackToTop = defineAsyncComponent(() => import('@/components/layout/BackToTop.vue'));
 </script>
