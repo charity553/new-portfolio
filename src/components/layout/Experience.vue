@@ -31,19 +31,15 @@ import {ref} from 'vue';
 
 const Experience =ref([
     {
-        duration:'5/2025-8/2025',
+        duration:'',
         Title:'Security Analyst',
         company:'Cybershujaa'
     },
-    {   duration:'3/2025-6/2025', 
-        Title:'Cybersecurity Specialist',
-        company:'Joomo Kenyatta University of Agriculture and Technology',
+    {   duration:'', 
+        Title:'Software Developer',
+        company:'University of Nairobi Enterprises - HealthIT USAID Project',
     },
-    {   duration:'2/2023-01/2024', 
-        Title:'Software Developer Intern',
-        company:'University of Nairobi Enterprises - HealtIT USAID Project',
-    },
-    {   duration:'05/2023-03/2024', 
+    {   duration:'', 
         Title:'Backend Developer',
         company:'The Hot Platform - Zambia',
     }

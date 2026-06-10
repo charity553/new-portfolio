@@ -64,20 +64,28 @@ const navigationOptions = {
 
 const projects = ref([
     {
-        title:'KenyaEMR System Enhancements',
+        title:'Web App Development: TaifaCare',
         description:'Improved the user interface and added new functionality to the KenyaEMR system during hackathons and field deployments across Kenya in Bungoma, Kakamega, Turkana, West Pokot, Uasin Gishu, Trans Nzoia Counties',
         image: new URL('@/assets/images/Kenyaemr.png',import.meta.url).href,
         tags:['React', 'Java', 'Health IT', 'EMR', 'UX/UI','OpenMRS'],
-        liveLink:'https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189',
+        liveLink:'https://uat.kenyahmis.org',
         codeLink:'https://github.com/openmrs/openmrs-esm-patient-chart/pull/2189'
     },
     {
-        title:'Data Reporting Platform with Offline Support',
-        description:'Contributed to the development and support of responsive, mobile-friendly web apps for field data reporting with offline-first capabilities (eCHIS and CPIMS).',
-        image:new URL('@/assets/images/echis.png',import.meta.url).href,
-        tags:['PWA', 'Vue.js', 'IndexedDB', 'Offline-First', 'Health'],
-        liveLink:'/',
-        codeLink:'/'
+        title:'Website Development: The HotPlatform',
+        description:'Contributed to the development and support of responsive, mobile-friendly web apps for the HotPlatform',
+        image:new URL('@/assets/images/thehotplatform.png',import.meta.url).href,
+        tags:['Python', 'Django', 'Database', 'Web application', 'Website'],
+        liveLink:'https://www.hotplatform.ai',
+        codeLink:'https://www.hotplatform.ai'
+    },
+    {
+        title:'Website Development: Neighborhood Smiles Dental clinic',
+        description:'Develop a Dentist Website',
+        image:new URL('@/assets/images/dental.png',import.meta.url).href,
+        tags:['Python', 'Django', 'Database', 'Web application', 'Website'],
+        liveLink:'https://neighborhoodsmilesdental.netlify.app',
+        codeLink:'https://neighborhoodsmilesdental.netlify.app'
     },
     {
         title:'DWAPI Facility Integration & Automation',

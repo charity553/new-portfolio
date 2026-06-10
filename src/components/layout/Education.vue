@@ -31,19 +31,19 @@ import {ref} from 'vue';
 
 const Education =ref([
     {
-        duration:'5/2025-8/2025',
+        duration:'',
         School:'Cybershujaa',
         degree:'Security Analyst'
     },
-    {   duration:'3/2025-6/2025', 
+    {   duration:'', 
         School:'Jomo Kenyatta University of Agriculture and Technology',
         degree:'Cyber Security',
     },
-    {   duration:'8/2018-12/2022', 
+    {   duration:'', 
         School:'Masinde Muliro University of Science and Technology',
         degree:'Bachelor of Science in Computer Science',
     },
-    {   duration:'2/2014-12/2017', 
+    {   duration:'', 
         School:'Mayori Secondary',
         degree:'High School Certificate',
     }

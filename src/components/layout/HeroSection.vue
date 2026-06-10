@@ -25,7 +25,7 @@
                     <a href="mailto:yourname@example.com?subject=Hiring Inquiry" target="_blank">
                         <Button label="Hire Me" />
                     </a>
-                    <a href="/Charity_Mulei_Resume.pdf" class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary 
+                    <a href="/CharityMuleiCurriculumVitae.pdf" class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary 
                     rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent
                     flex justify-center items-center text-primary border-primary ">
                     <Icon icon="line-md:download-loop" class="text-3xl" />
